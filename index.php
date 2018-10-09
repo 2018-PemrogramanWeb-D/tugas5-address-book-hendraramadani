@@ -28,7 +28,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
         echo "<td>".$user_data['address']."</td>";
         echo "<td>".$user_data['mobile']."</td>";
         echo "<td>".$user_data['email']."</td>";   
-        echo "<td>".$user_data['email']."</td>"; 
+        echo "<td>".$user_data['pos']."</td>"; 
         echo "<td><a href='edit.php?id=$user_data[id]'>Ubah</a> | <a href='delete.php?id=$user_data[id]'>Hapus</a></td></tr>";        
     }
     ?>
